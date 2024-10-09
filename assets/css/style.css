@@ -92,8 +92,17 @@ main {
     margin-top: 70px;
 }
 /* footer */
-footer {
-    background-color: orange;
+#social-networks {
+    list-style-type: none;
+    text-align: center;
+    padding: 20PX 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* Media Query: tablets and larger (768px and larger) */
