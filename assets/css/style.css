@@ -147,6 +147,23 @@ hr {
     margin: 5px 0;
 }
 
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url(../css/images/reasons-image-\ love-running.webp) no-repeat top center / cover;
+    margin: 20px;
+    /* makes square into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* footer */
 #social-networks {
     list-style-type: none;
